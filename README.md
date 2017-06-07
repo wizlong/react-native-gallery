@@ -21,7 +21,7 @@ This component works on react-native **0.28+** and only supports remote images f
 
 ## Install
 
-`npm install --save @almirfilho/react-native-gallery`
+`npm install --save @realgeeks/react-native-gallery`
 
 
 
