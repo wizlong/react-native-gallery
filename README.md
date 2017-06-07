@@ -1,5 +1,11 @@
 # react-native-gallery
 
+> This package is a fork of [react-native-gallery](https://github.com/ldn0x7dc/react-native-gallery)
+> that just adds support for `renderLoading` and `renderError` props. I've made
+> a [pull request](https://github.com/ldn0x7dc/react-native-gallery/pull/42)
+> with the same features, but had to publish this fork in the case it never gets
+> merged.
+
 A pure JavaScript image gallery component for react-native apps with common gestures like pan, pinch and doubleTap, supporting both iOS and Android.
 
 This component aims to be (one of ) the best image viewer for react-native apps. Comparing with other gallery alike components, this one should be more elegant in following aspects: (mimics iOS system photo album app)
@@ -15,7 +21,7 @@ This component works on react-native **0.28+** and only supports remote images f
 
 ## Install
 
-`npm install --save react-native-gallery@latest`
+`npm install --save @almirfilho/react-native-gallery`
 
 
 
@@ -41,7 +47,7 @@ import Gallery from 'react-native-gallery';
   }
 ```
 
-This component utilizes **[@ldn0x7dc/react-native-view-pager](https://github.com/ldn0x7dc/react-native-view-pager)** as the scrollable container and **[react-native-transformable-image](https://github.com/ldn0x7dc/react-native-transformable-image)** as the wrapped image. 
+This component utilizes **[@ldn0x7dc/react-native-view-pager](https://github.com/ldn0x7dc/react-native-view-pager)** as the scrollable container and **[react-native-transformable-image](https://github.com/ldn0x7dc/react-native-transformable-image)** as the wrapped image.
 
 #### Props
 
@@ -59,7 +65,7 @@ This component utilizes **[@ldn0x7dc/react-native-view-pager](https://github.com
 
 It's a common practice to float a comment box or like button above the image. This component provides a convenient interface to implement this feature:
 
-- onSingleTapConfirmed(): a good time for you to display the responding floating view. 
+- onSingleTapConfirmed(): a good time for you to display the responding floating view.
 - onGalleryStateChanged(idle): If *idle* is false, it's a good time for your to hide any floating views.
 
 Check the Demo project for a simple demonstration.
