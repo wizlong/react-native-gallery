@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { View, StyleSheet } from 'react-native';
 import Image from 'react-native-transformable-image';
 import ViewPager from '@ldn0x7dc/react-native-view-pager';
