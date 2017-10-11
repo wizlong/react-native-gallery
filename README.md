@@ -1,10 +1,9 @@
 # react-native-gallery
 
-> This package is a fork of [react-native-gallery](https://github.com/ldn0x7dc/react-native-gallery)
-> that just adds support for `renderLoading` and `renderError` props. I've made
-> a [pull request](https://github.com/ldn0x7dc/react-native-gallery/pull/42)
-> with the same features, but had to publish this fork in the case it never gets
-> merged.
+> This package is a fork of react-native-gallery that just adds support for
+> `renderLoading` and `renderError` props and some react updates.
+
+- Original package: [react-native-gallery](https://github.com/ldn0x7dc/react-native-gallery)
 
 A pure JavaScript image gallery component for react-native apps with common gestures like pan, pinch and doubleTap, supporting both iOS and Android.
 
