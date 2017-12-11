@@ -1,5 +1,5 @@
 {
-  "name": "@realgeeks/react-native-gallery",
+  "name": "react-native-gallery",
   "version": "0.1.2",
   "description": "",
   "main": "library/Gallery.js",
@@ -8,22 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/realgeeks/react-native-gallery.git"
+    "url": "git+https://github.com/wizlong/react-native-gallery.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/realgeeks/react-native-gallery/issues"
+    "url": "https://github.com/wizlong/react-native-gallery/issues"
   },
-  "homepage": "https://github.com/realgeeks/react-native-gallery#readme",
+  "homepage": "https://github.com/wizlong/react-native-gallery#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
     "prop-types": "*"
   },
   "dependencies": {
-    "@realgeeks/react-native-transformable-image": "0.1.1",
-    "@realgeeks/react-native-view-pager": "0.1.0",
+    "react-native-transformable-image": "wizlong/react-native-transformable-image",
+    "react-native-view-pager": "wizlong/react-native-view-pager",
     "react-native-gesture-responder": "0.1.1"
   }
 }
